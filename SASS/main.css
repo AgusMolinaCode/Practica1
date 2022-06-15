@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.NAV {
+  display: grid;
+  margin-top: 80px;
+}
+
+.NAV .NAV_A {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 45px;
+}
+
+.NAV .NAV_H6 {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 60px;
+}
+
+.CENTRO {
+  background-color: #bcf7e4;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.CENTRO a {
+  color: white;
+}
+
+.CENTRO_PRIN {
+  width: 500px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.CENTRO_FIGURE {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 12px;
+}
+
+.CENTRO_IZQ {
+  width: 500px;
+}
+
+.CENTRO_DER {
+  width: 500px;
+  margin-top: 30px;
+}
+
+.CENTRO_2 {
+  width: 150px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.CENTRO_P1 {
+  color: gray;
+  font-size: 25px;
+}
+
+.CENTRO_P2 {
+  margin-bottom: 60px;
+}
+
+.CENTRO_BUY {
+  background-color: black;
+  color: white;
+  margin-top: 50px;
+  padding: 20px 210px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 40px;
+}
+
+.CENTRO_H2 {
+  margin-top: 120px;
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.CENTRO_H3 {
+  font-size: 25px;
+  margin-bottom: 40px;
+  margin-top: 80px;
+}
+
+@media (max-width: 575px) {
+  .CENTRO_IZQ {
+    width: 400px;
+  }
+  .CENTRO_DER {
+    width: 400px;
+  }
+  .CENTRO_BUY {
+    padding: 20px 150px;
+    margin: auto;
+  }
+  .CENTRO_PRIN {
+    width: 400px;
+  }
+  .CENTRO_2 {
+    width: 120px;
+  }
+}
+
+@media (max-width: 415px) {
+  .CENTRO_IZQ {
+    width: 305px;
+    margin-top: 20px;
+  }
+  .CENTRO_DER {
+    width: 305px;
+  }
+  .CENTRO_BUY {
+    padding: 20px 110px;
+    margin: auto;
+  }
+  .CENTRO_PRIN {
+    width: 300px;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+  }
+  .CENTRO_2 {
+    width: 90px;
+    margin: auto;
+  }
+}
+
+.FOOTER {
+  align-items: center;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.FOOTER_H1 {
+  margin-top: 70px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.FOOTER h5 {
+  margin-top: 35px;
+}
+
+.FOOTER a {
+  margin-top: 110px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.FOOTER a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 575px) {
+  .FOOTER {
+    width: 350px;
+  }
+}
+
+@media (max-width: 415px) {
+  .FOOTER {
+    width: 315px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
